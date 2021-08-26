@@ -1,0 +1,33 @@
+{
+  "name": "gads-manager",
+  "version": "1.0.0",
+  "description": "Supporting learners retweeting their tweets to increase their outreach",
+  "main": "index.js",
+  "scripts": {
+    "start": "node the-bot/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taiwrash/gads-manager.git"
+  },
+  "keywords": [
+    "bot",
+    "GADS",
+    "GADS2021",
+    "ANDELA",
+    "GOOGLE"
+  ],
+  "author": "Mudasiru Rasheed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taiwrash/gads-manager/issues"
+  },
+  "homepage": "https://github.com/Taiwrash/gads-manager#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "twit": "^2.2.11"
+  },
+  "engines": {
+    "node": "14.4.0"
+  }
+}
