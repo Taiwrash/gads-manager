@@ -4,7 +4,7 @@ const twit = require("./twitKeys");
 const getPostedTweet = (since_id) => {
   return new Promise((resolve, reject) => {
     let parameters = {
-      q: "#GADS2021 since:2021-08-25",
+      q: "#GADS2021",
       count: 10,
     };
 
